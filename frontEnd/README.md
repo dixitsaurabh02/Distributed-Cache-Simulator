@@ -1,24 +1,74 @@
-*Automatically synced with your SandboxPro live project*
+# 🚀 Distributed Cache Simulator
 
-[![Hosted on SandboxPro](https://img.shields.io/badge/Hosted%20on-SandboxPro-blueviolet?style=for-the-badge)](https://code-sandbox.myanatomy.in/)
+A Distributed Cache Simulator built using Spring Boot and React that demonstrates how data is stored and retrieved across multiple cache nodes using hashing and LRU (Least Recently Used) eviction policy.
 
-## Overview
+---
 
-This repository is connected to your live project on [SandboxPro](https://code-sandbox.myanatomy.in), where you can build, run, and test full-stack applications in real time.
+## 🌐 Live Project
+Check the live preview from the repository "About" section.
 
-## Live Project URL
+---
 
-You can check live preview URL in your repository's About section.
+## ⚙️ Features
 
-## How It Works
+- 🔹 Distributed caching across multiple nodes  
+- 🔹 Hash-based key distribution  
+- 🔹 LRU cache eviction policy  
+- 🔹 REST API integration  
+- 🔹 Interactive frontend (React)  
+- 🔹 Real-time cache visualization  
 
-1. Code your app using **C, C++, Java, Python, JavaScript**, or frontend frameworks like **React, HTML, CSS**
-2. Preview and test your code instantly with no setup
-3. Share live runnable project links with others
-4. Changes are instantly visible in the cloud editor
+---
 
-## Build and Run More
+## 🧠 How It Works
 
-Continue building projects on:
+- Data is stored using key-value pairs  
+- A hash function determines which node stores the data  
+- Each node has limited capacity  
+- When full, least recently used data is removed  
+- Data retrieval uses the same hashing mechanism  
 
-**[https://code-sandbox.myanatomy.in](https://code-sandbox.myanatomy.in)**
+---
+
+## 🛠️ Tech Stack
+
+- Backend: Spring Boot (Java)  
+- Frontend: React.js  
+- Architecture: Distributed System Simulation  
+
+---
+
+## 📌 Example
+
+PUT:
+apple → fruit  
+
+GET:
+apple → HIT ✅  
+
+GET:
+mango → MISS ❌  
+
+---
+
+## 🎯 Use Case
+
+This project helps understand:
+- Distributed systems  
+- Caching strategies  
+- Real-world system design concepts  
+
+---
+
+## 🔮 Future Improvements
+
+- Add consistent hashing  
+- Integrate Redis  
+- Add visual node diagrams  
+- Cache hit/miss analytics  
+
+---
+
+## 🧑‍💻 Author
+
+Saurabh Dixit
